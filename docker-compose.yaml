@@ -1,5 +1,17 @@
 services:
-      build: .
+
+  vote:
+
+    build: vote
+
+    scale: 2
+
+    environment:
+
+      - FLASK_ENV=development
+
+    command: python spr
+
 
 
 
