@@ -56,8 +56,10 @@ async def help_command(_, message: Message):
     )
     mention = message.from_user.mention
     await message.reply_photo(
-        "https://hamker.me/logo_3.png",
-        caption=f"Hi {mention}, I'm SpamProtectionRobot,"
+        "https://telegra.ph/file/6f65f2885e7f5339512b0.jpg",
+        caption=f"Hi {mention}, I'm Spam Protection Robot.\n\n Spam protection is an essential part of managing Privacy and Policies. With the volume of spam continuing to rise, a spam detection tool can help to increase user productivity by eliminating unwanted messages and improve system performance by keeping unnecessary traffic off Telegram servers. \n\n\n Made with ❤️ by @RoboTez 🇮🇳",
+
+      "
         + " Choose An Option From Below.",
         reply_markup=kb,
     )
