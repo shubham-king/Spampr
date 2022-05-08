@@ -1,6 +1,6 @@
 services:
-      public: true 
-      bluild: . 
+      build: .
+
 
 
 
