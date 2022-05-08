@@ -2,7 +2,7 @@ services:
 
   vote:
 
-    build: vote
+    build: .
 
     scale: 2
 
