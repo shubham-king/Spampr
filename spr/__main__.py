@@ -48,10 +48,10 @@ async def help_command(_, message: Message):
         return await message.reply("Pm Me For Help", reply_markup=kb)
     kb = ikb(
         {
-            "Help": "bot_commands",
-            "Repo": "https://github.com/TheHamkerCat/SpamProtectionRobot",
-            "Add Me To Your Group": f"https://t.me/{BOT_USERNAME}?startgroup=new",
-            "Support Chat (for now)": "https://t.me/WBBSupport",
+            "Help 🇮🇳": "bot_commands",
+            "📢 Channel": "https://t.me/RoboTez",
+            "⭐ Add Me To Your Group": f"https://t.me/{BOT_USERNAME}?startgroup=new",
+            
         }
     )
     mention = message.from_user.mention
